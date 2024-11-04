@@ -1,0 +1,3 @@
+SELECT *
+FROM orders
+WHERE DATE >= NOW() - INTERVAL 10 DAY;
